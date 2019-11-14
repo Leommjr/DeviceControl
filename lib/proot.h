@@ -23,7 +23,8 @@
 #define MIN_GID 500
 #endif
 
-
+int remoRoot(void);
+int elevRoot(void);
 FILE* fopenRoot(char* caminho, char* modo);
 int fcloseRoot(FILE* fp);
 int removeRoot(char* caminho);

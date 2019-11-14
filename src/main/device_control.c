@@ -10,7 +10,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include "proot.h"
+#include "../../lib/proot.h"
 
 int disableUsb(char* caminho)
 {
